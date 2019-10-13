@@ -4,10 +4,6 @@ public class Point {
     private int pointX;
     private int pointY;
 
-    Point () {
-
-    }
-
     public int getPointX() {
         return pointX;
     }
