@@ -34,7 +34,7 @@ public class Point {
         } else if (pointX > 0 && pointY < 0) {
             return "IV";
         } else {
-            return "(nie można okreścilć jednoznacznie)";
+            return "(nie można wyznaczyc jednoznacznie)";
         }
     }
 }

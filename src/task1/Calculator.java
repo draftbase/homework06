@@ -4,10 +4,6 @@ public class Calculator {
     private double number1;
     private double number2;
 
-    Calculator() {
-
-    }
-
     public double getNumber1() {
         return number1;
     }
@@ -24,7 +20,7 @@ public class Calculator {
         this.number2 = number2;
     }
 
-    public double calcullate() {
+    public double calcullate(double number1, double number2) {
         if (number1 > number2){
             return number1 + number2;
         } else if (number1 < number2) {
